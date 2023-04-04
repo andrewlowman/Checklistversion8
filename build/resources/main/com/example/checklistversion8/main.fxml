@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="597.0" prefWidth="846.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.checklistversion8.Controller.MainController">
+   <children>
+      <TabPane layoutY="43.0" prefHeight="555.0" prefWidth="846.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab style="-fx-pref-width: 60;" text="January">
+            <content>
+              <fx:include source="January.fxml" />
+            </content>
+          </Tab>
+          <Tab style="-fx-pref-width: 60;" text="February">
+            <content>
+              <fx:include source="February.fxml" />
+            </content>
+          </Tab>
+            <Tab style="-fx-pref-width: 60;" text="March">
+              <content>
+                <fx:include source="March.fxml" />
+              </content>
+            </Tab>
+            <Tab style="-fx-pref-width: 60;" text="April">
+              <content>
+                <fx:include source="April.fxml" />
+              </content>
+            </Tab>
+            <Tab style="-fx-pref-width: 60;" text="May">
+              <content>
+                <fx:include source="May.fxml" />
+              </content>
+            </Tab>
+            <Tab style="-fx-pref-width: 60;" text="June">
+              <content>
+                <fx:include source="June.fxml" />
+              </content>
+            </Tab>
+            <Tab style="-fx-pref-width: 60;" text="July">
+              <content>
+                <fx:include source="July.fxml" />
+              </content>
+            </Tab>
+            <Tab style="-fx-pref-width: 60;" text="August">
+              <content>
+                <fx:include source="August.fxml" />
+              </content>
+            </Tab>
+            <Tab style="-fx-pref-width: 70;" text="September">
+              <content>
+                <fx:include source="September.fxml" />
+              </content>
+            </Tab>
+            <Tab style="-fx-pref-width: 60;" text="October">
+              <content>
+                <fx:include source="October.fxml" />
+              </content>
+            </Tab>
+            <Tab style="-fx-pref-width: 65;" text="November">
+              <content>
+                <fx:include source="November.fxml" />
+              </content>
+            </Tab>
+            <Tab style="-fx-pref-width: 65;" text="December">
+              <content>
+                <fx:include source="December.fxml" />
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <TextField fx:id="titleTextField" layoutX="51.0" layoutY="14.0" promptText="Title" />
+   </children>
+</Pane>

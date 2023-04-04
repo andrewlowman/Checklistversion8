@@ -1,0 +1,31 @@
+.button {
+  -fx-background-color: #FFFFFF;
+  -fx-border-size: 1px;
+  -fx-border-style: solid;
+  -fx-border-color: #222222;
+  -fx-border-radius: 8px;
+  -fx-box-sizing: border-box;
+  -fx-text-fill: #222222;
+  -fx-cursor: pointer;
+  -fx-display: inline-block;
+  -fx-font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+  -fx-font-size: 16px;
+  -fx-font-weight: 600;
+  -fx-line-height: 20px;
+  -fx-margin: 0;
+  -fx-outline: none;
+  -fx-padding: 13px 23px;
+  -fx-position: relative;
+  -fx-text-align: center;
+  -fx-text-decoration: none;
+  -fx-touch-action: manipulation;
+  -fx-transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  -fx-user-select: none;
+  -fx--webkit-user-select: none;
+  -fx-width: auto;
+}
+
+.button-pressed{
+  -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+  -fx-transition: box-shadow .2s;
+}
